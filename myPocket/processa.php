@@ -12,7 +12,6 @@
     $carteira = $_SESSION['carteira'];
 
     try {
-
         $valor = $_POST['valor'];
         $data = $_POST['data'];
         $descricao = $_POST['descricao'];
