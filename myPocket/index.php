@@ -1,5 +1,7 @@
 <?php
   require_once 'classes/Carteira.php';
+  require_once 'classes/Receita.php';
+  require_once 'classes/Despesa.php';
   session_start();
 
   if (!isset($_SESSION['carteira'])) {
